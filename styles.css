@@ -1,2 +1,27 @@
 
 /* Your CSS Code here. */
+.A{
+	background-color:red;
+	width: 90px;
+	height: 90px;
+}
+.B{
+	background-color:blue;
+	width: 90px;
+	height: 90px;
+	
+}
+.C{
+	background-color:black;
+	width: 90px;
+	height: 90px;
+}
+.holder{
+	width:500px;
+	height:500px;
+	border:1px solid black;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+	flex-wrap:wrap
+}
